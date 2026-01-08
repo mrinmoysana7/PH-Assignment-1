@@ -1,0 +1,55 @@
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+    max-width: 1600px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header nav{
+    max-width: 1600px;
+    max-height: 92px;
+    /* background-color:antiquewhite; */
+}
+.logo{
+    margin: 16px 0 16px 120px;
+}
+nav{
+    display:flex;
+    gap: 32px;
+    list-style: none;
+    text-align: center;
+}
+li{
+  list-style:none;
+  margin: 34px auto;
+}
+a{
+    text-decoration: none;
+}
+header nav .menu{
+    display:flex;
+    gap: 32px;
+    text-align: center;
+    margin-left: 614.5px;
+    /* margin: 34px 620px 34px 614.5px; */
+
+}
+.tips{
+     color: white;
+    border: none;
+    background-color:rgba(253, 125, 78, 0.808);
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    margin-right: 120px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
