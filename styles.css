@@ -181,7 +181,7 @@ main.hero-container p{
     margin: 0 auto;
 }
 
-.section-heading h3{
+.section-heading h4{
     font-size: 48px;
 }
 
@@ -230,4 +230,54 @@ main.hero-container p{
     font-weight: 400px;
     line-height: 20px;
     margin-top: 16px;
+}
+
+#knowledge{
+    max-width: 1600px;
+    max-height: 840px;
+    padding: 120px;
+    margin: 0 auto;
+}
+
+#knowledge .knowledge-container{
+    display: flex;
+    gap: 60px;
+    padding: 120px;
+}
+
+#knowledge-heading .sub-heading {
+    color:#469165;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+    
+ 
+}
+
+#knowledge-heading h4{
+    color:#001931;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+}
+
+#knowledge-heading p{
+    color:#627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.knowledge-cheaklist .cheak ul{
+    color:#001931;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+}
+.knowledge-container .kwowledge-content{
+    /* padding-top: 102px ; */
+    text-align: left;
+    margin-bottom: 102px;
 }
